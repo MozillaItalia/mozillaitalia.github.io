@@ -1,4 +1,4 @@
-* Descrizione Comunità
+# Descrizione Comunità
 
 Comunità Mozilla Italia
 
