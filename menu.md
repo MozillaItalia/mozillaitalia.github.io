@@ -4,7 +4,7 @@
 
 ## Prodotti
 
-   [Mozilla Firefox](https://www.mozillaitalia.org/home/prodotti/mozilla-firefox/)
+   [Mozilla Firefox](https://www.mozillaitalia.org/home/prodotti/mozilla-firefox/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/firefox.md)
    
    [Mozilla Thunderbird](https://www.mozillaitalia.org/home/prodotti/mozilla-thunderbird/)
    
