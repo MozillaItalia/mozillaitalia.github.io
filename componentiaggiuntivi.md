@@ -10,7 +10,9 @@
 I componenti aggiuntivi sono piccoli software in grado di modificare il comportamento e le caratteristiche del software in cui vengono installati. Vengono classificati in:
 
 **Estensioni**: modificano o aggiungono funzionalità ai programmi
+
 **Aspetto**: modificano l’aspetto dei programmi. Esistono due tipi di componenti aggiuntivi dedicati all’aspetto di Firefox: i temi, che abbelliscono la barra dei menu e l’area delle schede modificandola con un’immagine visualizzata in secondo piano e i temi completi, che modificano l’aspetto dei pulsanti e dei menu.
+
 **Plugin**: consentono ai programmi di effettuare operazioni specifiche (come visualizzare immagini speciali o riprodurre contenuto multimediale)
 
 ### Estensioni
