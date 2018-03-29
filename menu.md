@@ -6,23 +6,23 @@
 
    [Mozilla Firefox](https://www.mozillaitalia.org/home/prodotti/mozilla-firefox/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/firefox.md)
    
-   [Mozilla Thunderbird](https://www.mozillaitalia.org/home/prodotti/mozilla-thunderbird/)
+   [Mozilla Thunderbird](https://www.mozillaitalia.org/home/prodotti/mozilla-thunderbird/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/thunderbird.md)
    
-   [SeaMonkey](https://www.mozillaitalia.org/home/prodotti/seamonkey)
+   [SeaMonkey](https://www.mozillaitalia.org/home/prodotti/seamonkey) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/seamonkey.md)
    
-   [Lightning](https://www.mozillaitalia.org/home/prodotti/lightning/)
+   [Lightning](https://www.mozillaitalia.org/home/prodotti/lightning/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/lightning.md)
    
-   [Componenti aggiuntivi](https://www.mozillaitalia.org/home/prodotti/componenti-aggiuntivi/)
+   [Componenti aggiuntivi](https://www.mozillaitalia.org/home/prodotti/componenti-aggiuntivi/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/componentiaggiuntivi.md)
 
 ## Download
 
-   [Mozilla Firefox](https://www.mozillaitalia.org/home/download#firefox)
+   [Mozilla Firefox](https://www.mozillaitalia.org/home/download#firefox) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/download.md)
    
-   [Mozilla Thunderbird](https://www.mozillaitalia.org/home/download#thunderbird)
+   [Mozilla Thunderbird](https://www.mozillaitalia.org/home/download#thunderbird) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/download.md)
    
-   [Seamonkey](https://www.mozillaitalia.org/home/download#seamonkey)
+   [Seamonkey](https://www.mozillaitalia.org/home/download#seamonkey) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/download.md)
    
-   [Lightning](https://www.mozillaitalia.org/home/download#lightning)
+   [Lightning](https://www.mozillaitalia.org/home/download#lightning) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/download.md)
 
 ## Supporto
 
