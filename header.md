@@ -1,7 +1,10 @@
 # Header Content
 
-Logo: Mozilla Italia
+## Logo
+Mozilla Italia
 
-WordMark: Mozilla Italia
+## WordMark
+Mozilla Italia
 
-Breve descrizione: Associazione Italiana supporto e traduzione mozilla
+## Breve descrizione
+Associazione Italiana supporto e traduzione mozilla
