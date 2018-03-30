@@ -2,14 +2,14 @@
 
 ## Testo
 
-[Torna su]:
+[0]:
 ### Come iniziare
 #### Contenuti
 
-[Chi siamo](#Chi siamo)
-[I responsabili della localizzazione][I responsabili delle localizzazioni]
+[Chi siamo]
+[I responsabili della localizzazione]
 
-[Chi siamo]: #### Chi siamo
+#### Chi siamo
 
 Mozilla è una comunità mondiale di persone nata e cresciuta intorno alla Mozilla Foundation, ente no profit nato nel 1998 e finalizzato allo sviluppo di software di alta qualità. Le persone che ne fanno parte sono accomunate dalla convinzione che l’apertura e l’innovazione siano fondamentali per garantire il corretto sviluppo di Internet. I software Mozilla sono progettati per funzionare su tutti i principali sistemi operativi, sono basati su standard non proprietari, sono Open Source (chiunque può leggere, compilare, modificare o contribuire al codice sorgente) e con ampio supporto per gli utenti internazionali (di lingua non inglese).
 
@@ -25,9 +25,9 @@ Il lavoro di traduzione vero e proprio viene svolto da due gruppi di persone: i 
 
 Normalmente comunque tali compiti non sono assegnati in modo definito.  Al controllo qualità, ad esempio, possono partecipare tutti coloro che siano iscritti al nostro forum.
 
-[Torna ai contenuti][Torna su]
+[Torna ai contenuti][0]
 
-[I responsabili delle localizzazioni]: #### I responsabili delle localizzazioni
+#### I responsabili delle localizzazioni
 
 Di seguito l’elenco dei responsabili della localizzazione per ogni prodotto curato da Mozilla Italia:
 
