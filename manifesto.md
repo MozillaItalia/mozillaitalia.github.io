@@ -42,11 +42,11 @@ Esistono diversi modi per promuovere i principi del Manifesto Mozilla. Accogliam
 
 La Mozilla Foundation si impegna a fornire supporto al Manifesto Mozilla in tutte le sue attività. In particolare intendiamo:
 
-    sviluppare e incoraggiare le tecnologie open source e le comunità che sostengono i principi del Manifesto;
-    sviluppare e distribuire ottimi prodotti “consumer” che sostengono i principi del Manifesto;
-    utilizzare le risorse di Mozilla (la proprietà intellettuale come i diritti d’autore del marchio, le infrastrutture, i fondi e la reputazione) per mantenere il carattere di piattaforma “aperta” di Internet;
-    promuovere modelli per creare valore economico da cui tutti possano trarre vantaggio e
-    promuovere i principi del Manifesto Mozilla nelle conferenze e all’interno dell’industria legata a Internet.
+  - sviluppare e incoraggiare le tecnologie open source e le comunità che sostengono i principi del Manifesto;
+  - sviluppare e distribuire ottimi prodotti “consumer” che sostengono i principi del Manifesto;
+  - utilizzare le risorse di Mozilla (la proprietà intellettuale come i diritti d’autore del marchio, le infrastrutture, i fondi e la reputazione) per mantenere il carattere di piattaforma “aperta” di Internet;
+  - promuovere modelli per creare valore economico da cui tutti possano trarre vantaggio e
+  - promuovere i principi del Manifesto Mozilla nelle conferenze e all’interno dell’industria legata a Internet.
 
 Alcune attività della Fondazione – attualmente lo sviluppo, la distribuzione e la promozione dei prodotti “consumer” – vengono gestite principalmente dalla Mozilla Corporation, società sussidiaria interamente controllata da Mozilla Foundation.
 
