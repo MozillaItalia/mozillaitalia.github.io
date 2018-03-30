@@ -9,7 +9,7 @@ Sezione del sito su cui si richiede l'azione:
 ## Elementi Sito:
 
 * [ ] [Header Sito](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/header.md)
-* * [ ] [Footer Sito](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/footer.md)
+* [ ] [Footer Sito](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/footer.md)
 * [ ] [Menu Sito](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/menu.md)
 
 ## Pagine Sito:
