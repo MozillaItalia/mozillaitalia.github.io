@@ -6,7 +6,7 @@
 ### Come iniziare
 #### Contenuti
 
-[Chi siamo][Chi siamo]
+[Chi siamo](#Chi siamo)
 [I responsabili della localizzazione][I responsabili delle localizzazioni]
 
 [Chi siamo]: #### Chi siamo
@@ -31,14 +31,14 @@ Normalmente comunque tali compiti non sono assegnati in modo definito.  Al contr
 
 Di seguito l’elenco dei responsabili della localizzazione per ogni prodotto curato da Mozilla Italia:
 
-    Firefox, Firefox Android, Firefox OS: Francesco Lodolo (flod)
+  Firefox, Firefox Android, Firefox OS: Francesco Lodolo (flod)
     
-    SeaMonkey, Lightning: Iacopo Benesperi (iacchi)
+  SeaMonkey, Lightning: Iacopo Benesperi (iacchi)
     
-    SUMO: S. Lando (underpass), M. Rodaro (michro)
+  SUMO: S. Lando (underpass), M. Rodaro (michro)
     
-    Thunderbird: Roberto Principiano (kikko)
+  Thunderbird: Roberto Principiano (kikko)
     
-    Progetti web e mozilla.org: Sara Todaro (sara_t) e Sandro della Giustina (gialloporpora)
+  Progetti web e mozilla.org: Sara Todaro (sara_t) e Sandro della Giustina (gialloporpora)
 
 [Torna ai contenuti][Torna su]
