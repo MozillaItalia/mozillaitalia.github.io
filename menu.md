@@ -32,25 +32,28 @@
 
 ## Collabora
 
-   [Come iniziare](https://www.mozillaitalia.org/home/come-iniziare/)
+   [Come iniziare](https://www.mozillaitalia.org/home/come-iniziare/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/comeiniziare.md)
    
-   [Supporto sul forum](https://www.mozillaitalia.org/home/supporto-sul-forum/)
+   [Supporto sul forum](https://www.mozillaitalia.org/home/supporto-sul-forum/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/supportoForum.md)
    
-   [Traduzione estensioni](https://www.mozillaitalia.org/home/localizzare-le-estensioni/)
+   [Traduzione estensioni](https://www.mozillaitalia.org/home/localizzare-le-estensioni/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/localizzareleestenzioni.md)
    
-   [Stile di traduzione](https://www.mozillaitalia.org/home/regole-generali-di-traduzione/)
+   
+   [Stile di traduzione](https://www.mozillaitalia.org/home/regole-generali-di-traduzione/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/regolegeneralilocalizzazione.md)
    
    [Forum traduzioni](http://forum.mozillaitalia.org/index.php#7)
    
-   [SUMO](https://www.mozillaitalia.org/home/sumo/)
+   [SUMO](https://www.mozillaitalia.org/home/sumo/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/sumo.md)
+   
 
 ## Varie
 
-   [Mozilla Manifesto](https://www.mozillaitalia.org/home/manifesto-mozilla/)
+   [Mozilla Manifesto](https://www.mozillaitalia.org/home/manifesto-mozilla/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/manifesto.md)
    
-   [Plugin motori di ricerca](https://www.mozillaitalia.org/home/motori-di-ricerca/)
    
-   [Dizionari](https://www.mozillaitalia.org/home/dizionari/)
+   [Plugin motori di ricerca](https://www.mozillaitalia.org/home/motori-di-ricerca/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/motoridiricerca.md)
+   
+   [Dizionari](https://www.mozillaitalia.org/home/dizionari/) - [Testo Pagina](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/dizionari.md)
 
 ## Categorie
 
