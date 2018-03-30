@@ -24,6 +24,8 @@ Il lavoro di traduzione vero e proprio viene svolto da due gruppi di persone: i 
 
 Normalmente comunque tali compiti non sono assegnati in modo definito.  Al controllo qualità, ad esempio, possono partecipare tutti coloro che siano iscritti al nostro forum.
 
+#### Contenuti
+
 
 ##### I responsabili delle localizzazioni
 
@@ -38,3 +40,5 @@ Di seguito l’elenco dei responsabili della localizzazione per ogni prodotto cu
   Thunderbird: Roberto Principiano (kikko)
     
   Progetti web e mozilla.org: Sara Todaro (sara_t) e Sandro della Giustina (gialloporpora)
+  
+  #### Contenuti
