@@ -1,13 +1,11 @@
-Benvenuti a tutti!
+## Benvenuti.
 
-é possibile contribuire alla revisione del sito Internet attraverso la segnalazione di Bug, 
-richiesta di modifica testi o aggiunta sezioni.
+È possibile contribuire alla revisione del sito Internet di Mozilla Italia attraverso la segnalazione di Bug, richiesta di modifica testi o aggiunta sezioni.
 
-Una volta aperto l'issue attraverso l'apposito template è necessario specificare la natura della richiesta.
-In caso si voglia segnalare un bug, oppure la modifica del testo è necessario, inoltre, indicare la sezione 
-per la quale si sta effettuando la segnalazione.
+Aprire un nuovo *issue* seguendo il [template proposto](https://github.com/MozillaItalia/www.mozillaitalia.org/blob/master/docs/issue_template.md), quindi specificare la natura della segnalazione (fornendo maggiori dettagli possibili). Nel caso si volesse segnalare un bug, oppure suggerire la modifica del testo già online, sarà necessario indicare l'URL corrispondente alla sezione per la quale si intende proporre la modifica.
 
-Nel caso si vogliano proporre delle modifiche ai testi è necessario proporre la modifica nell'Issue aperto specificatamente per la sezione che si vuole modificare. Una volta che è stata effettuata la revisione del contenuto è possibile modificare il file MarkDown e aprire una Pull Request specificando il riferimento dell'issue relativo nella Pull Request. Una volta effettuato il Merge della richiesta è possibile chiudere la Pull Request. L'issue, invece, verrà chiuso solo dopo che il contenuto è stato modificato nel sito online.
+### Modifica testi del sito web
 
-Per qualunque informazione è possibile contattare uno dei maintainer del Repository, oppure via email all'indirizzo edovio@mozillaitalia.org .
+Creare una *pull request* fornendo il testo che si vuole proporre (nuovo o modifica di testo già esistente). È necessario inserire nella issue aperta il riferimento alla pull request appena aperta, al fine di eseguirne una revisione. Ultimata quest'ultima, il Team che si occupa della pubblicazione dei contenuti online terminerà il lavoro.
 
+Per qualsiasi informazione inerente questo repository è possibile contattare uno dei maintainer, oppure potete inviare una email all'indirizzo github@mozillaitalia.org.
