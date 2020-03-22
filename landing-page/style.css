@@ -4,6 +4,10 @@ body{
     font-size: 1.2rem;
 }
 
+.btn{
+    background-color: #007CFF;
+}
+
 .link-panel{
     background-color: rgba(89,90,92,1);
     color: white;
@@ -34,5 +38,5 @@ hr{
 
 
 #logo-img{
-    height: 200px;
+    height: 100px;
 }
