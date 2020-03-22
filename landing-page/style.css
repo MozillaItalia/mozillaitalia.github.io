@@ -4,6 +4,10 @@ body{
     font-size: 1.2rem;
 }
 
+#logo-img{
+    height: 100px;
+}
+
 .btn{
     background-color: #007CFF;
 }
@@ -24,19 +28,6 @@ hr{
     background-image: linear-gradient(to right, rgba(168, 168, 168, 0.089), white,rgb(168, 168, 168, 0.089));
 }
 
-/* .btn{
-    font-size: 1.1rem;
-} */
-
 .title{
     font-size: 2rem;
-}
-/* 
-.btn-outline-secondary:hover{
-    background-color: black;
-} */
-
-
-#logo-img{
-    height: 100px;
 }
