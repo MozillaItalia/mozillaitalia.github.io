@@ -19,12 +19,12 @@
 
         <div class="my-5">
             <p>Mozilla Italia è la community italiana dei volontari Mozilla. Ci occupiamo di supporto, sviluppo software, traduzione e altri contributi di vario tipo ai progetti Mozilla Foundation. Siamo attivi in vari progetti riguardanti l'open source e i diritti degli utenti del web. </p>
-            <p>Mozilla Italia non è una divisione di Mozilla Corporation o di Mozilla Foundation, ma in alcuni scenari la community può rappresentare ufficialmente Mozilla, per maggiori informazioni consulta la pagina wiki. </p>
+            <p>Mozilla Italia non è una divisione di Mozilla Corporation o di Mozilla Foundation, per maggiori informazioni consulta la pagina wiki. </p>
             <p>Per rimanere aggiornato su quello che facciamo, puoi seguirci su Facebook, Twitter, Instagram. Abbiamo anche un forum e dei gruppi su Telegram, dove siamo maggiormente attivi, e Matrix. Se vuoi contribuire e diventare anche tu un volontario, non esitare e unisciti a noi! Abbiamo bisogno di chiunque, anche se non ha particolari esperienze o abilità.</p>
         </div>
 
         <div class="text-center my-5 py-3">
-            <button class="btn btn-info btn-lg">Diventa un volontario ora!</button>
+            <button onclick="window.location.href = '#gruppi';" class="btn btn-info btn-lg">Diventa un volontario ora!</button>
         </div>
     </div>
 
@@ -54,23 +54,64 @@
     <!----------------------------- GRUPPI -------------------------->
     <div class="my-5 text-center">
         <div class="container py-3">
-            <p class="title">I nostri gruppi comunitari</p>
+            <p class="title" id="gruppi">I nostri gruppi comunitari</p>
             
             <hr class="my-4">
 
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1">
-                <p>Test</p> 
+                    <img class="group img-fluid mb-3" src="img/groups/bot.png" onclick="window.open('https://t.me/MozItaBot', '_blank');">
+                    <p>Bot</p> 
                 </div>
                 <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1">                <p>Test</p> 
+                    <img class="group img-fluid mb-3" src="img/groups/design.png">
+                    <p>Design</p> 
                 </div>
                 <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1">                <p>Test</p> 
+                    <img class="group img-fluid mb-3" src="img/groups/developer.png">
+                    <p>Developer</p> 
                 </div>
                 <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1">                <p>Test</p> 
+                    <img class="group img-fluid mb-3" src="img/groups/home.png">
+                    <p>Home</p> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/iot.png">
+                    <p>IoT</p> 
+                </div>
+                <div class="col-12 col-md-6 col-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/l10n.png">
+                    <p>L10n</p> 
+                </div>
+                <div class="col-12 col-md-6 col-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/news.png">
+                    <p>News</p> 
+                </div>
+                <div class="col-12 col-md-6 col-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/sumo.png">
+                    <p>Sumo</p> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/volontari.png">
+                    <p>Volontari</p> 
+                </div>
+                <div class="col-12 col-md-6 col-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/mozita dark.png" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/', '_blank');">
+                    <p>MozillaCommunity > MozillaItalia</p> 
+                </div>
+                <div class="col-12 col-md-6 col-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="img/groups/discourse.png"  onclick="window.open('https://discourse.mozilla.org/c/community-portal/mozilla-italia', '_blank');">
+                    <p>MozillaDiscourse > MozillaItaliaCommunity</p> 
+                </div>
+                <div class="col-12 col-md-6 col-6 col-lg-3">
+                    <img class="group img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1">
+                    <p>Altro</p> 
                 </div>
             </div>
         </div>
@@ -131,6 +172,7 @@
             <a class="text-white mx-3" href="">Forum</a>
             <a class="text-white mx-3" href="">FAQ</a>
             <a class="text-white mx-3" href="">Contatti</a>
+            <a class="text-white mx-3" href="https://github.com/MozillaItalia/assets">Assets</a>
         </div>
     </div>
 </body>

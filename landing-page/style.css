@@ -14,7 +14,7 @@ body{
 }
 
 .link-panel{
-    background-color: rgba(89,90,92,1);
+    background-color: #007CFF;
     color: white;
 }
 
@@ -31,4 +31,8 @@ hr{
 
 .title{
     font-size: 2rem;
+}
+
+.group:hover{
+    cursor: pointer;
 }
