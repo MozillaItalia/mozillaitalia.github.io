@@ -33,6 +33,9 @@ hr{
     font-size: 2rem;
 }
 
-.group:hover{
+.group{
+    max-height: 65%;
+}
+.link-btn:hover{
     cursor: pointer;
 }
