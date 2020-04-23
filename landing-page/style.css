@@ -35,7 +35,13 @@ hr{
 
 .group{
     max-height: 65%;
+    align-content: center;
 }
+
 .link-btn:hover{
     cursor: pointer;
+}
+
+.gallery-cell {
+    height: 200px;
 }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="http://mozilla.github.io/mofo-bootstrap/dest/css/mofo-bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
@@ -53,116 +54,72 @@
             </div>
         </div>
     </div>
-    
+
     <!----------------------------- GRUPPI -------------------------->
     <div class="my-5 text-center">
-        <div class="container py-3">
-            <p class="title" id="gruppi">I nostri gruppi comunitari</p>
-            
-            <hr class="my-4">
+        <p class="title" id="gruppi">I nostri gruppi comunitari</p>
+        
+        <hr class="my-4">
 
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/bot.png" onclick="window.open('https://t.me/MozItaBot', '_blank');">
-                    <p>Bot</p> 
-                </div>
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/home.png" onclick="window.open('https://t.me/joinchat/DlD6s0My26mR73QkiFqIxAt', '_blank');">
-                    <p>Home</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/volontari.png" onclick="window.open('https://t.me/joinchat/DlD6s0QAHkGm9l8J2RLFMg', '_blank');">
-                    <p>Voglio diventare volontario</p> 
-                </div>
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/sumo.png" onclick="window.open('https://forum.mozillaitalia.org/', '_blank');">
-                    <p>Supporto</p> 
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/l10n.png" onclick="window.open('https://t.me/joinchat/DlD6s0My26mR73QkiFqIxAt', '_blank');">
-                    <p>L10n</p> 
-                </div>
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/developer.png" onclick="window.open('https://t.me/joinchat/DlD6s0NXHcyGKfhZaAzczg', '_blank');">
-                    <p>Developer</p> 
-                </div>
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/design.png" onclick="window.open('https://t.me/joinchat/DlD6s1SZHehGkrKtzIwneA', '_blank');">
-                    <p>Design</p> 
-                </div>
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/discourse.png"  onclick="window.open('https://discourse.mozilla.org/c/community-portal/mozilla-italia', '_blank');">
-                    <p>Discourse</p> 
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/communityportal.png" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/', '_blank');">
-                    <p>Community Portal</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/iot.png" onclick="window.open('https://t.me/joinchat/DlD6s0zLzr2qDBbp9WQ22w', '_blank');">
-                    <p>IoT</p> 
-                </div>
-                <div class="col-12 col-md-6 col-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/groups/news.png" onclick="window.open('https://t.me/mozItaNews', '_blank');">
-                    <p>News</p> 
-                </div>
-
-            </div>
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+            <img class="gallery-cell link-btn m-4" src="img/groups/bot.png" onclick="window.open('https://t.me/MozItaBot', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/home.png" onclick="window.open('https://t.me/joinchat/DlD6s0My26mR73QkiFqIxAt', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/volontari.png" onclick="window.open('https://t.me/joinchat/DlD6s0QAHkGm9l8J2RLFMg', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/sumo.png" onclick="window.open('https://forum.mozillaitalia.org/', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/l10n.png" onclick="window.open('https://t.me/joinchat/DlD6s0My26mR73QkiFqIxAt', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/developer.png" onclick="window.open('https://t.me/joinchat/DlD6s0NXHcyGKfhZaAzczg', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/design.png" onclick="window.open('https://t.me/joinchat/DlD6s1SZHehGkrKtzIwneA', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/discourse.png"  onclick="window.open('https://discourse.mozilla.org/c/community-portal/mozilla-italia', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/communityportal.png" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/iot.png" onclick="window.open('https://t.me/joinchat/DlD6s0zLzr2qDBbp9WQ22w', '_blank');">
+            <img class="gallery-cell link-btn m-4" src="img/groups/news.png" onclick="window.open('https://t.me/mozItaNews', '_blank');">
         </div>
     </div>
 
+    <div class="my-3">&nbsp;</div>
+
     <!----------------------------- PROGETTI -------------------------->
     <div class="my-5 text-center link-panel">
-        <div class="container py-3">
-            <p class="title">Progetti principali di Mozilla</p>
+        <div class="my-3">&nbsp;</div>
+        <p class="title">Progetti principali di Mozilla</p>
 
-            <hr class="my-4 hr-light">
-            
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/firefox-browser.png" onclick="window.open('https://www.mozilla.org/it/firefox/new/', '_blank');">
-                        <p>Firefox Browser</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/common-voice.png" onclick="window.open('https://www.mozilla.org/it/firefox/new/', '_blank');">
-                        <p>Common Voice</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/common-voice.png" onclick="window.open('https://developer.mozilla.org/it/', '_blank');">
-                        <p>MDN</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/thunderbird.png" onclick="window.open('https://www.thunderbird.net/it/', '_blank');">
-                        <p>Thunderbird</p> 
-                </div>
+        <hr class="my-4 hr-light">
+        
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/firefox-browser.png" onclick="window.open('https://www.mozilla.org/it/firefox/new/', '_blank');">
+                <p>Firefox Browser</p> 
             </div>
-
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/firefox-send.png" onclick="window.open('https://send.firefox.com/', '_blank');">
-                        <p>Firefox Send</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/firefox-monitor.png" onclick="window.open('https://monitor.firefox.com/', '_blank');">
-                        <p>Firefox Monitor</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/deepspeech.png" onclick="window.open('https://github.com/mozilla/DeepSpeech', '_blank');">
-                        <p>DeepSpeech</p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="img/projects/servo.png" onclick="window.open('https://servo.org/', '_blank');">
-                        <p>Servo</p> 
-                </div>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/common-voice.png" onclick="window.open('https://www.mozilla.org/it/firefox/new/', '_blank');">
+                <p>Common Voice</p>
             </div>
-
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/common-voice.png" onclick="window.open('https://developer.mozilla.org/it/', '_blank');">
+                <p>MDN</p> 
+            </div>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/thunderbird.png" onclick="window.open('https://www.thunderbird.net/it/', '_blank');">
+                <p>Thunderbird</p> 
+            </div>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/firefox-send.png" onclick="window.open('https://send.firefox.com/', '_blank');">
+                <p>Firefox Send</p>
+            </div>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/firefox-monitor.png" onclick="window.open('https://monitor.firefox.com/', '_blank');">
+                <p>Firefox Monitor</p> 
+            </div>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/deepspeech.png" onclick="window.open('https://github.com/mozilla/DeepSpeech', '_blank');">
+                <p>DeepSpeech</p> 
+            </div>
+            <div>
+                <img class="gallery-cell link-btn m-4" src="img/projects/servo.png" onclick="window.open('https://servo.org/', '_blank');">
+                <p>Servo</p> 
+            </div>
         </div>
+        <div class="my-3">&nbsp;</div>
     </div>
 
     <!----------------------------- Eventi -------------------------->
@@ -202,5 +159,6 @@
             <a class="text-white mx-3" href="https://github.com/MozillaItalia/assets">Assets</a>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 </body>
 </html>
