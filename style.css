@@ -22,6 +22,12 @@ body{
         color:white;
 }
 
+.carousel-cell {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
 hr{
     border: 0;
     height: 1px;
