@@ -6,21 +6,22 @@
     <link rel="stylesheet" href="https://mozilla.github.io/mofo-bootstrap/dest/css/mofo-bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.1/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <script>
-        var tg = document.querySelectorAll('.tg-link');
-        for (var i = 0; i < tg.length; i++) {
-            var urlpartsplit = 'hat';
-            var urlpart = 'joinc' + urlpartsplit;
-            var urlpartagain = 't.';
-            var urlpartanother = 'me/';
-            var id = tg[i].getAttribute('data-id');
-            tg[i].setAttribute('href', 'https://' + urlpartagain + urlpartanother + urlpart + '/' + id);
-            console.log(id)
-        }
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var tg = document.querySelectorAll('.tg-link');
+            for (var i = 0; i < tg.length; i++) {
+                var urlpartsplit = 'hat';
+                var urlpart = 'joinc' + urlpartsplit;
+                var urlpartagain = 't.';
+                var urlpartanother = 'me/';
+                var id = tg[i].getAttribute('data-id');
+                tg[i].setAttribute('href', 'https://' + urlpartagain + urlpartanother + urlpart + '/' + id);
+            }
+        });
     </script>
 </head>
 <body>
@@ -70,7 +71,7 @@
         
         <hr class="my-4">
 
-        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "contain": true}'>
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "contain": true, "groupCells": true}'>
             <div class="carousel-cell">
                 <a href="https://t.me/MozItaBot" target="_blank">
                     <img class="gallery-cell link-btn" src="img/groups/bot.png">
@@ -137,7 +138,6 @@
                 </a>
                 <p>News</p> 
             </div>
-            <div class="mx-5">&nbsp;</div>
         </div>
     </div>
 
@@ -149,8 +149,7 @@
 
         <hr class="my-4 hr-light">
         
-        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "contain": true}'>
-            <div class="mx-5">&nbsp;</div>
+        <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "contain": true, "groupCells": true}'>
             <div class="carousel-cell">
                 <a href="https://www.mozilla.org/it/firefox/new/" target="_blank">
                     <img class="gallery-cell link-btn" src="img/projects/firefox-browser.png">
@@ -199,9 +198,8 @@
                 </a>
                 <p>Servo</p> 
             </div>
-            <div class="mx-5">&nbsp;</div>
         </div>
-        <div class="my-3">&nbsp;</div>
+        <div class="my-5">&nbsp;</div>
     </div>
 
     <div class="my-5 text-center">
