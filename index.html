@@ -9,10 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <script>
+        var tg = document.querySelectorAll('.tg-link');
+        for (var i = 0; i < tg.length; i++) {
+            var urlpartsplit = 'hat';
+            var urlpart = 'joinc' + urlpartsplit;
+            var urlpartagain = 't.';
+            var urlpartanother = 'me/';
+            var id = tg[i].getAttribute('data-id');
+            tg[i].setAttribute('href', 'https://' + urlpartagain + urlpartanother + urlpart + '/' + id);
+            console.log(id)
+        }
+    </script>
 </head>
 <body>
 
-    <!----------------------------- DECRIZIONE -------------------------->
     <div class="container">
         <div class="text-center my-5 py-5 asd">
             <img class="img-fluid" src="img/logo.png" id="logo-img">   
@@ -25,37 +36,34 @@
         </div>
 
         <div class="text-center my-5 py-3">
-            <button onclick="window.location.href = '#gruppi';" class="btn btn-info btn-lg">Diventa un volontario ora!</button>
+            <a href="#gruppi" class="btn btn-info btn-lg">Diventa un volontario ora!</a>
         </div>
     </div>
 
-    
-    <!----------------------------- SOCIALS -------------------------->
     <div class="my-5 text-center link-panel">
         <div class="container py-3">
             <p class="title">Seguici sui social</p>
             <hr class="my-4 hr-light">
             <div class="row d-flex justify-content-center">
                 <div class="col-2 my-4">
-                    <i class="link-btn fab fa-facebook-f fa-3x" onclick="window.open('https://www.facebook.com/mozillaitalia/', '_blank');"></i>
+                    <a href="https://www.facebook.com/mozillaitalia/" target="_blank"><i class="link-btn fab fa-facebook-f fa-3x"></i></a>
                 </div>
                 <div class="col-2 my-4">
-                    <i class="link-btn fab fa-twitter fa-3x" onclick="window.open('https://twitter.com/mozillaitalia', '_blank');"></i>
+                    <a href="https://twitter.com/mozillaitalia" target="_blank"><i class="link-btn fab fa-twitter fa-3x"></i></a>
                 </div>
                 <div class="col-2 my-4">
-                    <i class="link-btn fab fa-telegram-plane fa-3x" onclick="window.open('https://t.me/MozItaBot', '_blank');"></i>
+                    <a href="https://t.me/MozItaBot" target="_blank"><i class="link-btn fab fa-telegram-plane fa-3x"></i></a>
                 </div>
+                <!--<div class="col-2 my-4">
+                    <a href="https://www.facebook.com/mozillaitalia/"><i class="link-btn fab fa-instagram fa-3x" onclick="window.open('#', '_blank');"></i></a>
+                </div>-->
                 <div class="col-2 my-4">
-                    <i class="link-btn fab fa-instagram fa-3x" onclick="window.open('#', '_blank');"></i>
-                </div>
-                <div class="col-2 my-4">
-                    <i class="link-btn fab fa-youtube fa-3x" onclick="window.open('https://www.youtube.com/channel/UCsTquqVS0AJxCf4D3n9hQ1w/', '_blank');"></i>
+                    <a href="https://www.youtube.com/channel/UCsTquqVS0AJxCf4D3n9hQ1w/" target="_blank"><i class="link-btn fab fa-youtube fa-3x"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!----------------------------- GRUPPI -------------------------->
     <div class="my-5 text-center">
         <p class="title" id="gruppi">I nostri gruppi comunitari</p>
         
@@ -64,67 +72,67 @@
         <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "contain": true}'>
             <div class="mx-5">&nbsp;</div>
             <div>
-                <a href="https://t.me/MozItaBot">
+                <a href="https://t.me/MozItaBot" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/bot.png">
                 </a>
                 <p>Bot</p> 
             </div>
             <div>
-                <a href="https://t.me/joinchat/DlD6s0My26mR73QkiFqIxAt">
+                <a class="tg-link" data-id="DlD6s0My26mR73QkiFqIxAt" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/home.png">
                 </a>
                 <p>Home</p> 
             </div>
             <div>
-                <a href="https://t.me/joinchat/DlD6s0QAHkGm9l8J2RLFMg">
+                <a class="tg-link" data-id="DlD6s0QAHkGm9l8J2RLFMg" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/volontari.png">
                 </a>
                 <p>Volontari</p> 
             </div>
             <div>
-                <a href="https://forum.mozillaitalia.org/">
+                <a href="https://forum.mozillaitalia.org/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/sumo.png">
                 </a>
                 <p>Supporto</p> 
             </div>
             <div>
-                <a href="https://t.me/joinchat/DlD6s0My26mR73QkiFqIxAt">
+                <a class="tg-link" data-id="DlD6s0My26mR73QkiFqIxAt" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/l10n.png">
                 </a>
                 <p>L10n</p> 
             </div>
             <div>
-                <a href="https://t.me/joinchat/DlD6s0NXHcyGKfhZaAzczg">
+                <a class="tg-link" data-id="DlD6s0NXHcyGKfhZaAzczg" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/developer.png">
                 </a>
                 <p>Developer</p> 
             </div>
             <div>
-                <a href="https://t.me/joinchat/DlD6s1SZHehGkrKtzIwneA">
+                <a class="tg-link" data-id="DlD6s1SZHehGkrKtzIwneA" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/design.png">
                 </a>
                 <p>Design</p> 
             </div>
             <div>
-                <a href="https://discourse.mozilla.org/c/community-portal/mozilla-italia">
+                <a href="https://discourse.mozilla.org/c/community-portal/mozilla-italia" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/discourse.png">
                 </a>
                 <p>Discourse</p> 
             </div>
             <div>
-                <a href="https://community.mozilla.org/groups/mozilla-italia/">
+                <a href="https://community.mozilla.org/groups/mozilla-italia/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/communityportal.png">
                 </a>
                 <p>Community Portal</p> 
             </div>
             <div>
-                <a href="https://t.me/joinchat/DlD6s0zLzr2qDBbp9WQ22w">
+                <a class="tg-link" data-id="DlD6s0zLzr2qDBbp9WQ22w" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/iot.png">
                 </a>
                 <p>IoT</p> 
             </div>
             <div>
-                <a href="https://t.me/mozItaNews">
+                <a href="https://t.me/mozItaNews" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/groups/news.png">
                 </a>
                 <p>News</p> 
@@ -135,7 +143,6 @@
 
     <div class="my-3">&nbsp;</div>
 
-    <!----------------------------- PROGETTI -------------------------->
     <div class="my-5 text-center link-panel">
         <div class="my-3">&nbsp;</div>
         <p class="title">Progetti principali di Mozilla</p>
@@ -145,49 +152,49 @@
         <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "contain": true}'>
             <div class="mx-5">&nbsp;</div>
             <div>
-                <a href="https://www.mozilla.org/it/firefox/new/">
+                <a href="https://www.mozilla.org/it/firefox/new/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/projects/firefox-browser.png">
                 </a>
                 <p>Firefox Browser</p> 
             </div>
             <div>
-                <a href="https://www.mozilla.org/it/firefox/new/">
+                <a href="https://www.mozilla.org/it/firefox/new/" target="_blank">
                 <img class="gallery-cell link-btn m-4" src="img/projects/common-voice.png">
                 </a>
                 <p>Common Voice</p>
             </div>
             <div>
-                <a href="https://developer.mozilla.org/it/">
+                <a href="https://developer.mozilla.org/it/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/projects/mdn.png">
                 </a>
                 <p>MDN</p> 
             </div>
             <div>
-                <a href="https://www.thunderbird.net/it/">
+                <a href="https://www.thunderbird.net/it/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/projects/thunderbird.png">
                 </a>
                 <p>Thunderbird</p> 
             </div>
             <div>
-                <a href="https://send.firefox.com/">
+                <a href="https://send.firefox.com/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/projects/firefox-send.png">
                 </a>
                 <p>Firefox Send</p>
             </div>
             <div>
-                <a href="https://monitor.firefox.com/">
+                <a href="https://monitor.firefox.com/" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/projects/firefox-monitor.png">
                 </a>
                 <p>Firefox Monitor</p> 
             </div>
             <div>
-                <a href="https://github.com/mozilla/DeepSpeech">
+                <a href="https://github.com/mozilla/DeepSpeech" target="_blank">
                     <img class="gallery-cell link-btn m-4" src="img/projects/deepspeech.png">
                 </a>
                 <p>DeepSpeech</p> 
             </div>
             <div>
-                <a href="https://servo.org/">
+                <a href="https://servo.org/" target="_blank">
                 <img class="gallery-cell link-btn m-4" src="img/projects/servo.png">
                 </a>
                 <p>Servo</p> 
@@ -197,7 +204,6 @@
         <div class="my-3">&nbsp;</div>
     </div>
 
-    <!----------------------------- Eventi -------------------------->
     <div class="my-5 text-center">
         <div class="container py-3">
             <p class="title">Eventi</p>
@@ -206,26 +212,25 @@
 
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/?view=events', '_blank');">
+                    <a href="https://community.mozilla.org/groups/mozilla-italia/?view=events" target="_blank"><img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1"></a>
                     <p>Evento 1</p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/?view=events', '_blank');">
+                   <a href="https://community.mozilla.org/groups/mozilla-italia/?view=events" target="_blank"><img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1"></a>
                     <p>Evento 2</p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/?view=events', '_blank');">
+                    <a href="https://community.mozilla.org/groups/mozilla-italia/?view=events" target="_blank"><img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1"></a>
                     <p>Evento 3</p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1" onclick="window.open('https://community.mozilla.org/groups/mozilla-italia/?view=events', '_blank');">
+                    <a href="https://community.mozilla.org/groups/mozilla-italia/?view=events" target="_blank"><img class="group link-btn img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WGUv4X4AoKwQwxiORG-pSAHaHa%26pid%3DApi&f=1"></a>
                     <p>Evento 4</p> 
                 </div>
             </div>
         </div>
     </div>
 
-    <!----------------------------- FOOTER -------------------------->
     <div class="mt-5 text-center link-panel">
         <div class="container py-4">
             <a class="text-white mx-3" href="">Forum</a>
