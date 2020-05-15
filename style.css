@@ -13,6 +13,10 @@ body{
     font-family: 'Zilla Slab', serif;
 }
 
+.btn:hover{
+    background-color: rgba(0, 119, 255, 0.8);
+}
+
 .link-panel{
     background-color: #0077FF;
     color: white;
