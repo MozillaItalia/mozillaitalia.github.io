@@ -9,12 +9,16 @@ body{
 }
 
 .btn{
-    background-color: #007CFF;
+    background-color: #0077FF;
     font-family: 'Zilla Slab', serif;
 }
 
+.btn:hover{
+    background-color: rgba(0, 119, 255, 0.8);
+}
+
 .link-panel{
-    background-color: #007CFF;
+    background-color: #0077FF;
     color: white;
 }
 
@@ -53,5 +57,13 @@ hr{
 }
 
 .gallery-cell {
-    height: 200px;
+    height: 150px;
+}
+
+a{
+    color: #0077FF;
+}
+
+.element-title{
+    font-weight: bold;
 }
