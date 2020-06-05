@@ -40,7 +40,7 @@ hr{
 }
 
 .hr-light{
-    background-image: linear-gradient(to right, rgba(168, 168, 168, 0.089), white,rgb(168, 168, 168, 0.089));
+    background-image: linear-gradient(to right, rgba(168, 168, 168, 0.089), white,rgba(168, 168, 168, 0.089));
 }
 
 .title{
