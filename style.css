@@ -8,6 +8,26 @@ body{
     height: 100px;
 }
 
+mark{
+    background-color: #000000;
+    color: #f2f2f2;
+}
+
+.blue{
+    background-color: #0077FF;
+    color: #f2f2f2;
+}
+
+.link-panel-black{
+    background-color: #d0d0d0;
+    color: #000000;
+}
+
+.link-panel-blue{
+    background-color: #b8d9ff;
+    color: #000000;
+}
+
 .btn{
     background-color: #0077FF;
     font-family: 'Zilla Slab', serif;
@@ -18,12 +38,12 @@ body{
 }
 
 .link-panel{
-    background-color: #0077FF;
+    background-color: #419aff;
     color: white;
 }
 
 .link-panel a {
-        color:white;
+    color:white;
 }
 
 .carousel-cell {
@@ -62,6 +82,10 @@ hr{
 
 a{
     color: #0077FF;
+}
+
+.black{
+    color: #000000;
 }
 
 .element-title{
