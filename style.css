@@ -1,26 +1,17 @@
 body{
-    background-color: #f2f2f2;
-    font-family: 'Zilla Slab', serif;
-    font-size: 1.2rem;
+    background-color: #f9f9fa;
+    font-family: 'Fira Sans', serif;
+    font-size: 17px;
+	font-weight: 400;
 }
 
 #logo-img{
     height: 100px;
 }
 
-mark{
-    background-color: #000000;
-    color: #f2f2f2;
-}
-
 .blue{
     background-color: #0077FF;
     color: #f2f2f2;
-}
-
-.link-panel-black{
-    background-color: #d0d0d0;
-    color: #000000;
 }
 
 .link-panel-blue{
@@ -30,64 +21,77 @@ mark{
 
 .btn{
     background-color: #0077FF;
-    font-family: 'Zilla Slab', serif;
 }
 
-.btn:hover{
-    background-color: rgba(0, 119, 255, 0.8);
+.btn-dark{
+    background-color: #2a2a2e;
+	color:#f9f9fa;
+}
+
+.btn-dark:hover{
+    background-color: #4a4a4f;
+	color:#f9f9fa;
+}
+
+.btn-italia{
+    background-color: #0a84ff;
+	color: #f9f9fa;
+}
+
+.btn-italia:hover{
+    background-color: #003eaa;
+	color:#f9f9fa;
+}
+
+.spaceDiv{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.spaceText{
+	padding:40px;
 }
 
 .link-panel{
-    background-color: #419aff;
-    color: white;
-}
-
-.link-panel a {
-    color:white;
-}
-
-.carousel-cell {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    width: 20%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-.hr-light{
-    background-image: linear-gradient(to right, rgba(168, 168, 168, 0.089), white,rgba(168, 168, 168, 0.089));
+    background-color: #ededf0;
+    color: #737373;
 }
 
 .title{
-    font-size: 2rem;
+	margin-bottom:40px;
+    font-size: 28px;
+	font-weight: 300;
 }
 
-.group{
-    max-height: 65%;
-    align-content: center;
-}
-
-.link-btn:hover{
-    cursor: pointer;
+.title-emphasized{
+	margin-bottom:40px;
+    font-size: 28px;
+	font-weight: 700;
 }
 
 .gallery-cell {
+    height: 60px;
+}
+
+.gallery-cell-italia {
     height: 150px;
 }
 
-a{
+a {
+    color: #737373;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+a:hover {
     color: #0077FF;
+	text-decoration: none;
 }
 
-.black{
-    color: #000000;
-}
-
-.element-title{
-    font-weight: bold;
+.element-title {
+	margin-top: 17px;
+	font-size: 17px;
+	font-weight: 400;
 }
