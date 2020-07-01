@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/brands.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	<script>
         document.addEventListener('DOMContentLoaded', (event) => {
@@ -24,23 +24,25 @@
     </script>
 </head>
 <body>
-    <div class="container">
-		<div class="d-flex justify-content-center">
-			<div class="spaceDiv">
-				<img class="img-fluid" src="img/logo.png" id="logo-img">   
-			</div> 
+	<section>
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<img src="img/logo.png">
+			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="container spaceText">
-		<div class="row">
-			<h1 class="title-emphasized">Mozilla</h1>
-			<p>Mozilla è l'organizzazione senza fini di lucro che ha realizzato Firefox, il primo browser alternativo. Da sempre promuove prodotti e linee di condotta per mantenere Internet al servizio delle persone, non dei propri profitti.</p>
-			<a href="https://www.mozilla.org/it/" class="btn btn-dark">Scopri di più su Mozilla</a>
+	<section>
+		<div class="container">
+			<div class="row">
+				<h1 class="title">Mozilla</h1>
+				<p>Mozilla è l'organizzazione senza fini di lucro che ha realizzato Firefox, il primo browser alternativo. Da sempre promuove prodotti e linee di condotta per mantenere Internet al servizio delle persone, non dei propri profitti.</p>
+				<a href="https://www.mozilla.org/it/" class="btn">Scopri di più su Mozilla</a>
+			</div>
 		</div>
-	</div>
-    
-	<div class="spaceDiv text-center link-panel">
+	</section>
+
+	<div class="text-center panel">
 		<div class="container">
 			<div class="d-flex justify-content-center">
 				<h1 class="title">Alcuni progetti Mozilla</h1>
@@ -98,28 +100,30 @@
 		</div>
 	</div>
 
-	<div class="container spaceText">
-		<div class="row">
-			<h1 class="title-emphasized">Mozilla Italia</h1>
+	<section>
+		<div class="container">
+			<div class="row">
+				<h1 class="title">Mozilla Italia</h1>
+			</div>
+			<div class="row">
+				<p>Community italiana dei volontari Mozilla. Ci occupiamo di:</p>
+			</div>
+			<div class="row">
+				<ul>
+					<li>supporto</li>
+					<li>sviluppo software</li>
+					<li>traduzione</li>
+					<li>altri contributi per progetti Mozilla Foundation</li>
+				</ul>
+			</div>
+			<div class="row">	
+				<p>Siamo attivi in vari progetti riguardanti l'open source e i diritti degli utenti del web.</p>
+				<p>Mozilla Italia non è una divisione di Mozilla Corporation o Mozilla Foundation, per maggiori informazioni consulta la <a href="https://it.wikipedia.org/wiki/Mozilla_Italia">pagina wiki</a>.</p>
+			</div>
 		</div>
-		<div class="row">
-			<p>Community italiana dei volontari Mozilla. Ci occupiamo di:</p>
-		</div>
-		<div class="row">
-			<ul>
-				<li>supporto</li>
-				<li>sviluppo software</li>
-				<li>traduzione</li>
-				<li>altri contributi per progetti Mozilla Foundation</li>
-			</ul>
-		</div>
-		<div class="row">	
-			<p>Siamo attivi in vari progetti riguardanti l'open source e i diritti degli utenti del web.</p>
-			<p>Mozilla Italia non è una divisione di Mozilla Corporation o Mozilla Foundation, per maggiori informazioni consulta la <a href="https://it.wikipedia.org/wiki/Mozilla_Italia">pagina wiki</a>.</p>
-		</div>
-	</div>
+	</section>
 
-    <div class="spaceDiv text-center link-panel">
+    <div class="text-center panel">
 		<div class="container">
 			<div class="d-flex justify-content-center">
 				<h4 class="title">Diventa un volontario!</h4>
@@ -128,104 +132,122 @@
 				<p>Se vuoi contribuire e diventare anche tu un volontario, non esitare e unisciti a noi! Abbiamo bisogno di chiunque, anche se non ha particolari esperienze o abilità.</p>
 			</div>
 			<div class="mt-4 row">
-				<div class="col-md-3 col-6 mb-2">
-					<a href="https://t.me/MozItaBot" target="_blank">
-						<img class="gallery-cell" src="img/groups/bot.png">
-						<p class="element-title">Bot</p>
-					</a>
-				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a class="tg-link" data-id="DlD6s0My26mR73QkiFqIxAt" target="_blank">
 						<img class="gallery-cell" src="img/groups/home.png">
 						<p class="element-title">Home</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a class="tg-link" data-id="DlD6s0QAHkGm9l8J2RLFMg" target="_blank">
 						<img class="gallery-cell" src="img/groups/volontari.png">
 						<p class="element-title">Volontari</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a href="https://forum.mozillaitalia.org/" target="_blank">
 						<img class="gallery-cell" src="img/groups/sumo.png">
 						<p class="element-title">Supporto</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a class="tg-link" data-id="DlD6s0My26mR73QkiFqIxAt" target="_blank">
 						<img class="gallery-cell" src="img/groups/l10n.png">
 						<p class="element-title">Localizzazione</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a class="tg-link" data-id="DlD6s0NXHcyGKfhZaAzczg" target="_blank">
 						<img class="gallery-cell" src="img/groups/developer.png">
 						<p class="element-title">Developer</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a class="tg-link" data-id="DlD6s1SZHehGkrKtzIwneA" target="_blank">
 						<img class="gallery-cell" src="img/groups/design.png">
 						<p class="element-title">Design</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a href="https://discourse.mozilla.org/c/community-portal/mozilla-italia" target="_blank">
 						<img class="gallery-cell" src="img/groups/discourse.png">
 						<p class="element-title">Discourse</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a href="https://community.mozilla.org/groups/mozilla-italia/" target="_blank">
 						<img class="gallery-cell" src="img/groups/communityportal.png">
 						<p class="element-title">Community portal</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a class="tg-link" data-id="DlD6s0zLzr2qDBbp9WQ22w" target="_blank">
 						<img class="gallery-cell" src="img/groups/iot.png">
 						<p class="element-title">IoT</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-6 mb-2">
+				<div class="col-md-2 col-6 mb-2">
 					<a href="https://t.me/mozItaNews" target="_blank">
 						<img class="gallery-cell" src="img/groups/news.png">
 						<p class="element-title">News</p>
 					</a>
 				</div>
 			</div>
+			<div class="d-flex justify-content-center">
+				<p>Per maggiori info, contattaci su <a href="https://t.me/MozItaBot" target="_blank"><i class="fab fa-telegram-plane"></i></a></p>
+			</div>
 		</div>
     </div>
 
-    <div class="container">
-		<div class="row spaceDiv text-center">
-			<div class="col-6">
-				<h1 class="footer">Seguici e contattaci</h1>
-				<a href="https://www.facebook.com/mozillaitalia/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
-				<a href="https://twitter.com/mozillaitalia" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-				<a href="https://chat.mozilla.org/#/room/#mozilla-italia:mozilla.org" target="_blank">
-					<svg width="28px" height="35px" viewBox="0 0 245 303">
-						<g fill="none" transform="translate(4.000000, 4.000000)">
-							<path d="M86.1425849,84.2020859 L86.1425849,126.893219 L129.37194,126.848586 C129.920908,126.848586 130.42181,126.833708 130.920183,126.801474 C142.286609,126.050157 151.171294,116.704576 151.171294,105.526576 C151.171294,93.7658716 141.413825,84.2020859 129.414947,84.2020859 L86.1425849,84.2020859 Z M43.3888336,295.061616 C19.7781376,295.061616 0.635082213,276.301025 0.635082213,253.156514 L0.635082213,173.291341 C0.480763939,171.843259 0.397222769,170.370382 0.397222769,168.880147 C0.394750474,167.362637 0.475704323,165.864963 0.635082213,164.387127 L0.635082213,42.2969838 C0.635082213,19.1524736 19.7781376,0.389402187 43.3888336,0.389402187 L129.414947,0.389402187 C188.561853,0.389402187 236.681326,47.5537185 236.681326,105.526576 C236.681326,160.645423 192.758804,206.718719 136.688144,210.41827 C134.305065,210.579443 131.848622,210.66127 129.414947,210.66127 L86.1425849,210.703423 L86.1425849,253.156514 C86.1425849,276.301025 67.0020593,295.061616 43.3888336,295.061616 L43.3888336,295.061616 Z" id="Fill-1"></path>
-							<path d="M86.1425849,84.2020859 L86.1425849,126.893219 L129.37194,126.848586 C129.920908,126.848586 130.42181,126.833708 130.920183,126.801474 C142.286609,126.050157 151.171294,116.704576 151.171294,105.526576 C151.171294,93.7658716 141.413825,84.2020859 129.414947,84.2020859 L86.1425849,84.2020859 Z M43.3888336,295.061616 C19.7781376,295.061616 0.635082213,276.301025 0.635082213,253.156514 L0.635082213,42.2969838 C0.635082213,19.1524736 19.7781376,0.389402187 43.3888336,0.389402187 L129.414947,0.389402187 C188.561853,0.389402187 236.681326,47.5537185 236.681326,105.526576 C236.681326,160.645423 192.758804,206.718719 136.688144,210.41827 C134.305065,210.579443 131.848622,210.66127 129.414947,210.66127 L86.1425849,210.703423 L86.1425849,253.156514 C86.1425849,276.301025 67.0020593,295.061616 43.3888336,295.061616 Z" id="Stroke-3" stroke="#737373" stroke-width="7.57286622"></path>
-							<path d="M43.3890866,253.155771 L43.3890866,42.2962399 L129.4152,42.2962399 C165.042483,42.2962399 193.925298,70.6057399 193.925298,105.525832 C193.925298,138.997842 167.390144,166.394852 133.817065,168.609128 C132.359896,168.705832 130.895137,168.755424 129.4152,168.755424 L43.3890866,168.755424" id="Stroke-5" stroke="#737373" stroke-width="7.57286622" stroke-linecap="round"></path>
-							<path d="M168.827328,144.561054 L229.251787,229.080422 C242.803967,248.034422 238.111174,274.16684 218.775853,287.445054 C211.30786,292.57533 202.749521,295.037564 194.277194,295.037564 C180.803438,295.037564 167.547245,288.813789 159.226708,277.177064 L98.802249,192.657697 C85.2525986,173.703697 89.945392,147.571279 109.280713,134.293064 C128.616034,121.004932 155.277678,125.607054 168.827328,144.561054 Z M78.6186836,18.2627961 C85.1734156,27.4298471 87.6905743,38.5532961 85.707205,49.5701226 C83.7213059,60.5943879 77.4726807,70.1978471 68.112392,76.6175103 C48.7871904,89.8709287 22.0547116,85.2564083 8.52276987,66.3296838 C1.96803793,57.1626328 -0.549120806,46.0416634 1.4367783,35.0198777 C3.42014759,23.998092 9.66877279,14.3921532 19.0315914,7.97496953 C38.3567929,-5.27844883 65.0867419,-0.663928426 78.6186836,18.2627961 Z" id="Combined-Shape" fill="#737373"></path>
-						</g>
-					</svg>
-				</a>
-				<a href="https://t.me/MozItaBot" target="_blank"><i class="fab fa-telegram-plane fa-2x"></i></a>
-				<a href="https://www.youtube.com/channel/UCsTquqVS0AJxCf4D3n9hQ1w/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-			</div>
-			<div class="col-6">
-				<h1 class="footer">Link utili</h1>
-				<a href="https://community.mozilla.org/groups/mozilla-italia/?view=events">Eventi</a>
-				<br><a href="https://forum.mozillaitalia.org/">Forum</a>
-				<br><a href="">FAQ</a>
-				<br><a href="">Contatti</a>
-				<br><a href="https://github.com/MozillaItalia/assets">Assets</a>
+	<section>
+		<div class="text-center">
+			<div class="container">
+				<div class="d-flex justify-content-center">
+					<h1 class="title">Seguici e contattaci</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://www.facebook.com/mozillaitalia/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+					</div>
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://twitter.com/mozillaitalia" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+					</div>
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://chat.mozilla.org/#/room/#mozilla-italia:mozilla.org" target="_blank">
+							<svg width="28px" height="35px" viewBox="0 0 245 303">
+								<g fill="none" transform="translate(4.000000, 4.000000)">
+									<path d="M86.1425849,84.2020859 L86.1425849,126.893219 L129.37194,126.848586 C129.920908,126.848586 130.42181,126.833708 130.920183,126.801474 C142.286609,126.050157 151.171294,116.704576 151.171294,105.526576 C151.171294,93.7658716 141.413825,84.2020859 129.414947,84.2020859 L86.1425849,84.2020859 Z M43.3888336,295.061616 C19.7781376,295.061616 0.635082213,276.301025 0.635082213,253.156514 L0.635082213,173.291341 C0.480763939,171.843259 0.397222769,170.370382 0.397222769,168.880147 C0.394750474,167.362637 0.475704323,165.864963 0.635082213,164.387127 L0.635082213,42.2969838 C0.635082213,19.1524736 19.7781376,0.389402187 43.3888336,0.389402187 L129.414947,0.389402187 C188.561853,0.389402187 236.681326,47.5537185 236.681326,105.526576 C236.681326,160.645423 192.758804,206.718719 136.688144,210.41827 C134.305065,210.579443 131.848622,210.66127 129.414947,210.66127 L86.1425849,210.703423 L86.1425849,253.156514 C86.1425849,276.301025 67.0020593,295.061616 43.3888336,295.061616 L43.3888336,295.061616 Z" id="Fill-1"></path>
+									<path d="M86.1425849,84.2020859 L86.1425849,126.893219 L129.37194,126.848586 C129.920908,126.848586 130.42181,126.833708 130.920183,126.801474 C142.286609,126.050157 151.171294,116.704576 151.171294,105.526576 C151.171294,93.7658716 141.413825,84.2020859 129.414947,84.2020859 L86.1425849,84.2020859 Z M43.3888336,295.061616 C19.7781376,295.061616 0.635082213,276.301025 0.635082213,253.156514 L0.635082213,42.2969838 C0.635082213,19.1524736 19.7781376,0.389402187 43.3888336,0.389402187 L129.414947,0.389402187 C188.561853,0.389402187 236.681326,47.5537185 236.681326,105.526576 C236.681326,160.645423 192.758804,206.718719 136.688144,210.41827 C134.305065,210.579443 131.848622,210.66127 129.414947,210.66127 L86.1425849,210.703423 L86.1425849,253.156514 C86.1425849,276.301025 67.0020593,295.061616 43.3888336,295.061616 Z" id="Stroke-3" stroke="#737373" stroke-width="7.57286622"></path>
+									<path d="M43.3890866,253.155771 L43.3890866,42.2962399 L129.4152,42.2962399 C165.042483,42.2962399 193.925298,70.6057399 193.925298,105.525832 C193.925298,138.997842 167.390144,166.394852 133.817065,168.609128 C132.359896,168.705832 130.895137,168.755424 129.4152,168.755424 L43.3890866,168.755424" id="Stroke-5" stroke="#737373" stroke-width="7.57286622" stroke-linecap="round"></path>
+									<path d="M168.827328,144.561054 L229.251787,229.080422 C242.803967,248.034422 238.111174,274.16684 218.775853,287.445054 C211.30786,292.57533 202.749521,295.037564 194.277194,295.037564 C180.803438,295.037564 167.547245,288.813789 159.226708,277.177064 L98.802249,192.657697 C85.2525986,173.703697 89.945392,147.571279 109.280713,134.293064 C128.616034,121.004932 155.277678,125.607054 168.827328,144.561054 Z M78.6186836,18.2627961 C85.1734156,27.4298471 87.6905743,38.5532961 85.707205,49.5701226 C83.7213059,60.5943879 77.4726807,70.1978471 68.112392,76.6175103 C48.7871904,89.8709287 22.0547116,85.2564083 8.52276987,66.3296838 C1.96803793,57.1626328 -0.549120806,46.0416634 1.4367783,35.0198777 C3.42014759,23.998092 9.66877279,14.3921532 19.0315914,7.97496953 C38.3567929,-5.27844883 65.0867419,-0.663928426 78.6186836,18.2627961 Z" id="Combined-Shape" fill="#737373"></path>
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://www.youtube.com/channel/UCsTquqVS0AJxCf4D3n9hQ1w/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+					</div>
+				</div>
+				
+				<div class="d-flex justify-content-center">
+					<h1 class="mt-5 title">Link utili</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://community.mozilla.org/groups/mozilla-italia/?view=events">Eventi</a>
+					</div>
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://forum.mozillaitalia.org/">Forum</a>
+					</div>
+					<div class="col-md-3 col-6 mb-5">
+						<a href="">FAQ</a>
+					</div>
+					<div class="col-md-3 col-6 mb-5">
+						<a href="https://github.com/MozillaItalia/assets">Assets</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </body>
 </html>
