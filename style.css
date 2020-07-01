@@ -1,69 +1,57 @@
 body{
-    background-color: #f2f2f2;
-    font-family: 'Zilla Slab', serif;
-    font-size: 1.2rem;
+    background-color: #f9f9fa;
+    font-family: 'Fira Sans', serif;
+    font-size: 17px;
+	font-weight: 400;
 }
 
-#logo-img{
-    height: 100px;
+section{
+	padding: 40px;
 }
 
 .btn{
-    background-color: #0077FF;
-    font-family: 'Zilla Slab', serif;
+    background-color: #2a2a2e;
+	color:#f9f9fa;
 }
 
 .btn:hover{
-    background-color: rgba(0, 119, 255, 0.8);
+    background-color: #4a4a4f;
+	color:#f9f9fa;
 }
 
-.link-panel{
-    background-color: #0077FF;
-    color: white;
-}
-
-.link-panel a {
-        color:white;
-}
-
-.carousel-cell {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    width: 20%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-.hr-light{
-    background-image: linear-gradient(to right, rgba(168, 168, 168, 0.089), white,rgba(168, 168, 168, 0.089));
+.panel{
+    background-color: #ededf0;
+    color: #737373;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .title{
-    font-size: 2rem;
-}
-
-.group{
-    max-height: 65%;
-    align-content: center;
-}
-
-.link-btn:hover{
-    cursor: pointer;
+	margin-bottom:40px;
+    font-size: 28px;
+	font-weight: 700;
 }
 
 .gallery-cell {
-    height: 150px;
+    height: 60px;
 }
 
-a{
+a {
+    color: #737373;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+a:hover {
     color: #0077FF;
 }
 
-.element-title{
-    font-weight: bold;
+#Combined-Shape:hover {
+	fill: #0077FF;
+}
+
+.element-title {
+	margin-top: 17px;
+	font-size: 17px;
+	font-weight: 400;
 }
