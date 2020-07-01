@@ -14,15 +14,6 @@ body{
     color: #f2f2f2;
 }
 
-.link-panel-blue{
-    background-color: #b8d9ff;
-    color: #000000;
-}
-
-.btn{
-    background-color: #0077FF;
-}
-
 .btn-dark{
     background-color: #2a2a2e;
 	color:#f9f9fa;
@@ -30,16 +21,6 @@ body{
 
 .btn-dark:hover{
     background-color: #4a4a4f;
-	color:#f9f9fa;
-}
-
-.btn-italia{
-    background-color: #0a84ff;
-	color: #f9f9fa;
-}
-
-.btn-italia:hover{
-    background-color: #003eaa;
 	color:#f9f9fa;
 }
 
@@ -71,12 +52,14 @@ body{
 	font-weight: 700;
 }
 
-.gallery-cell {
-    height: 60px;
+.footer{
+	margin-bottom:40px;
+    font-size: 15px;
+	font-weight: 700;
 }
 
-.gallery-cell-italia {
-    height: 150px;
+.gallery-cell {
+    height: 60px;
 }
 
 a {
@@ -87,7 +70,10 @@ a {
 
 a:hover {
     color: #0077FF;
-	text-decoration: none;
+}
+
+#Combined-Shape:hover {
+	fill: #0077FF;
 }
 
 .element-title {
