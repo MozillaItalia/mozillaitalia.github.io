@@ -6,6 +6,7 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.title,
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Zilla Slab', Inter, X-LocaleSpecific, sans-serif;
 }
@@ -39,6 +40,11 @@ section{
 
 .gallery-cell {
     height: 60px;
+}
+
+.gallery-cell:hover {
+	transform: scale(1.1);
+	transition: .1s;
 }
 
 a {
