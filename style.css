@@ -1,8 +1,13 @@
 body{
     background-color: #f9f9fa;
-    font-family: 'Fira Sans', serif;
+    font-family: Inter, X-LocaleSpecific, sans-serif;
     font-size: 17px;
 	font-weight: 400;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Zilla Slab', Inter, X-LocaleSpecific, sans-serif;
 }
 
 section{
