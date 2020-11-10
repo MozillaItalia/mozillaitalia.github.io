@@ -1,16 +1,22 @@
 # Mozilla Italia - Nuovo sito web
 
-Questo repository è didicato alla creazione del nuovo sito web della comunità Mozilla Italia.
+Questo repository è dedicato alla creazione del nuovo sito web della comunità Mozilla Italia.
 Al momento è visionabile su: http://mozillaitalia.github.io, ma effettivamente andrà a sostituire quello ufficiale https://mozillaitalia.org.
 Al momento il coordinatore del progetto è @Sav22999
 
 ## Idea
 
-Realizzare un sito web molto semplice ("landing page"), nella quale inserire le maggiori informaizioni, come i progetti principali di Mozilla oppure su come raggiungere la comunità Mozilla Italia (i social, i contatti, i Mozilla Rep italiani, i gruppi comunitari, ecc.).
+Realizzare un sito web molto semplice ("landing page"), nella quale inserire le maggiori informazioni, come i progetti principali di Mozilla oppure su come raggiungere la comunità Mozilla Italia (i social, i contatti, i Mozilla Rep italiani, i gruppi comunitari, ecc.).
 Inoltre, dovrebbe essere dedicata una pagina al gruppo localizzazione (L10n) in quanto utilizza molti strumenti ed è ben organizzato.
 - Una pagina agli Assets (ovvero al logo di Mozilla Italia, al suo utilizzo, eccetera).
 - Una pagina ai contatti, nella quale inserire i social, i Mozilla Rep italiani, e quant'altro.
 - Una pagina FAQ, nella quale inserire le domande poste più di frequente con già una risposta pronta.
+
+### Differenza con il sito attuale
+
+Il sito attuale è molto disorganizzato ed era, in principio, un blog. Tuttavia, a causa delle mancate persone che si occupano di scrivere articoli, è pressoché morto. Per questo motivo è stato scelto di realizzare una landing page, quindi statica, senza la parte di blog.
+
+**Il forum *forum.mozillaitalia.org* non verrà, al momento, dismesso. Tuttavia l'idea è di migrare, in futuro, tutta la parte di supporto su *support.mozilla.org*, che è il portale ufficiale di Mozilla per il supporto/forum.**
 
 ## Come contribuire
 
