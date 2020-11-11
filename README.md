@@ -1,7 +1,7 @@
 # Mozilla Italia - Nuovo sito web
 
 Questo repository è dedicato alla creazione del nuovo sito web della comunità Mozilla Italia.
-Al momento è visionabile su: http://mozillaitalia.github.io, ma effettivamente andrà a sostituire quello ufficiale https://mozillaitalia.org/home.
+Al momento è visionabile su: http://mozillaitalia.github.io, ma effettivamente andrà a sostituire quello ufficiale https://www.mozillaitalia.org/home.
 Al momento il coordinatore del progetto è @Sav22999
 
 ## Idea
