@@ -19,11 +19,16 @@ section{
     background-color: #2a2a2e;
 	color:#f9f9fa;
 	border-radius:4px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 400;
 }
 
 .btn:hover{
     background-color: #4a4a4f;
-	color:#f9f9fa;
+	color:#FFFFFF;
 }
 
 .panel{
