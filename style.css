@@ -1,51 +1,51 @@
-body{
+body {
     background-color: #f9f9fa;
     font-family: Inter, X-LocaleSpecific, sans-serif;
     font-size: 17px;
-	font-weight: 400;
-	-moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .title,
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Zilla Slab', Inter, X-LocaleSpecific, sans-serif;
+    font-family: 'Zilla Slab', Inter, X-LocaleSpecific, sans-serif;
 }
 
-section{
-	padding: 40px;
+section {
+    padding: 40px;
 }
 
-.btn{
+.btn {
     background-color: #2a2a2e;
-	color:#f9f9fa;
-	border-radius:4px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-weight: 400;
+    color: #f9f9fa;
+    border-radius: 4px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #4a4a4f;
-	color:#FFFFFF;
+    color: #FFFFFF;
 }
 
-.btn:active{
-    color:#FFFFFF;
+.btn:active {
+    color: #FFFFFF;
 }
 
-.panel{
+.panel {
     background-color: #ededf0;
     color: #737373;
-	padding-top: 40px;
-	padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.title{
-	margin-bottom:40px;
+.title {
+    margin-bottom: 40px;
     font-size: 28px;
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .gallery-cell {
@@ -53,38 +53,39 @@ section{
 }
 
 .gallery-cell:hover {
-	transform: scale(1.1);
-	transition: .1s;
+    transform: scale(1.1);
+    transition: .1s;
 }
 
 a {
     color: #737373;
-	text-decoration: none;
-	font-weight: 400;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 a:hover {
     color: #0077FF;
+    fill: #0077FF;
 }
 
-#Combined-Shape:hover {
-	fill: #0077FF;
+a:active {
+    color: #737373;
 }
 
 .element-title {
-	margin-top: 17px;
-	font-size: 17px;
-	font-weight: 400;
+    margin-top: 17px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .fa-facebook-f {
-	font-size: 32px;
+    font-size: 32px;
 }
 
 .margin-top-10px {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .margin-top-20px {
-	margin-top: 20px;
+    margin-top: 20px;
 }
