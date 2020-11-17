@@ -31,6 +31,10 @@ section{
 	color:#FFFFFF;
 }
 
+.btn:active{
+    color:#FFFFFF;
+}
+
 .panel{
     background-color: #ededf0;
     color: #737373;
