@@ -82,10 +82,50 @@ a:active {
     font-size: 32px;
 }
 
+.mozita-highlight {
+    background-color: #d4e4ff;
+}
+
+.div-buttons {
+    display: block;
+}
+
 .margin-top-10px {
     margin-top: 10px;
 }
 
+.margin-left-10px {
+    margin-left: 10px;
+}
+
 .margin-top-20px {
     margin-top: 20px;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-50px {
+    margin-bottom: 50px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-align-left {
+    text-align: left;
 }
