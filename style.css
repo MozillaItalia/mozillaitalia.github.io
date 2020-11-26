@@ -110,6 +110,10 @@ a:active {
     margin-bottom: 50px;
 }
 
+.padding-top-30px {
+    padding-top: 30px;
+}
+
 .big {
     font-size: 20px;
 }
