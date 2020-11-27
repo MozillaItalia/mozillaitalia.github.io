@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e8c6c67-bed0-4d76-a3dc-3d90999038ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mozillaitalia.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contatti/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contatti/index.html" afterDir="false" />
     </list>
@@ -39,7 +35,7 @@
       <updated>1605603795059</updated>
       <workItem from="1605603796175" duration="8872000" />
       <workItem from="1606427855998" duration="4313000" />
-      <workItem from="1606434771041" duration="900000" />
+      <workItem from="1606434771041" duration="1265000" />
     </task>
     <servers />
   </component>
