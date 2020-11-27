@@ -68,8 +68,12 @@ a:hover {
     fill: #0077FF;
 }
 
-a:active {
+a:active, a:focus, a:visited {
     color: #737373;
+}
+
+.btn:focus, .btn:visited {
+    color: #FFFFFF;
 }
 
 .element-title {
