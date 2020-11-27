@@ -68,11 +68,11 @@ a:hover {
     fill: #0077FF;
 }
 
-a:active, a:focus, a:visited {
+a:active, a:focus {
     color: #737373;
 }
 
-.btn:focus, .btn:visited {
+.btn:focus {
     color: #FFFFFF;
 }
 
