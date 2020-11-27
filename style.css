@@ -149,3 +149,75 @@ a:active {
 .icon-dark-background {
     background-color: #2a2a2e;
 }
+
+.logos > div {
+    margin-top: 20px;
+}
+
+.logos .element-title {
+    margin-top: 10px;
+}
+
+.background-000000 {
+    background-color: #000000;
+}
+
+.background-111111 {
+    background-color: #111111;
+}
+
+.background-222222 {
+    background-color: #222222;
+}
+
+.background-333333 {
+    background-color: #333333;
+}
+
+.background-444444 {
+    background-color: #444444;
+}
+
+.background-555555 {
+    background-color: #555555;
+}
+
+.background-666666 {
+    background-color: #666666;
+}
+
+.background-777777 {
+    background-color: #777777;
+}
+
+.background-888888 {
+    background-color: #888888;
+}
+
+.background-999999 {
+    background-color: #999999;
+}
+
+.background-AAAAAA {
+    background-color: #AAAAAA;
+}
+
+.background-BBBBBB {
+    background-color: #BBBBBB;
+}
+
+.background-CCCCCC {
+    background-color: #CCCCCC;
+}
+
+.background-DDDDDD {
+    background-color: #DDDDDD;
+}
+
+.background-EEEEEE {
+    background-color: #EEEEEE;
+}
+
+.background-FFFFFF {
+    background-color: #FFFFFF;
+}
