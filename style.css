@@ -243,3 +243,7 @@ a .element-title:active, a .element-title:focus {
 .background-FFFFFF {
     background-color: #FFFFFF;
 }
+
+.zilla-slab-highlight {
+    font-family: 'Zilla Slab Highlight';
+}
