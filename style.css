@@ -247,6 +247,11 @@ a .element-title:active, a .element-title:focus {
 .zilla-slab-highlight {
     font-family: 'Zilla Slab Highlight';
 }
+
 .color-primary {
     color: #007CFF;
+}
+
+.main-logo {
+    height: 100px;
 }
