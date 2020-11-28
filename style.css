@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Zilla+Slab+Highlight:wght@700&family=Zilla+Slab:wght@300;700&display=swap');
+
 body {
     background-color: #f9f9fa;
     font-family: Inter, X-LocaleSpecific, sans-serif;
@@ -59,8 +61,8 @@ section {
 
 a {
     color: #737373;
-    text-decoration: none;
     font-weight: 400;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -72,13 +74,18 @@ a:active, a:focus {
     color: #737373;
 }
 
+.btn {
+    text-decoration: none;
+    margin: 3px;
+}
+
 .btn:focus {
     color: #FFFFFF;
 }
 
 .element-title {
-    margin-top: 17px;
-    font-size: 17px;
+    margin-top: 10px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -87,7 +94,8 @@ a:active, a:focus {
 }
 
 .mozita-highlight {
-    background-color: #d4e4ff;
+    /*background-color: #d4e4ff;*/
+    font-weight: 900;
 }
 
 .mozita-dark-highlight {
