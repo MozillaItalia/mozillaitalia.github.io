@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Zilla+Slab+Highlight:wght@700&family=Zilla+Slab:wght@300;700&display=swap');
+
 body {
     background-color: #f9f9fa;
     font-family: Inter, X-LocaleSpecific, sans-serif;
@@ -18,7 +20,7 @@ section {
 .btn {
     background-color: #2a2a2e;
     color: #f9f9fa;
-    border-radius: 4px;
+    border-radius: 5px;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 10px;
@@ -36,7 +38,7 @@ section {
 }
 
 .panel {
-    background-color: #ededf0;
+    background-color: #F2F2FA;
     color: #737373;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -59,33 +61,198 @@ section {
 
 a {
     color: #737373;
-    text-decoration: none;
     font-weight: 400;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #0077FF;
-    fill: #0077FF;
+    color: #007CFF;
+    fill: #007CFF;
 }
 
-a:active {
+a:active,
+a:focus {
     color: #737373;
+    box-shadow: 0px 0px 0px 4px #007CFF;
+}
+
+.btn {
+    text-decoration: none;
+    margin: 3px;
+}
+
+.btn:focus {
+    color: #FFFFFF;
+    box-shadow: 0px 0px 0px 4px #007CFF;
 }
 
 .element-title {
-    margin-top: 17px;
-    font-size: 17px;
+    margin-top: 10px;
+    font-size: 15px;
     font-weight: 400;
+}
+
+.a-no-box-shadow:active, .a-no-box-shadow:focus {
+    box-shadow: 0px 0px 0px 0px transparent;;
+}
+
+a .element-title:active, a .element-title:focus {
+    box-shadow: 0px 0px 0px 4px #007CFF;
 }
 
 .fa-facebook-f {
     font-size: 32px;
 }
 
+.mozita-highlight {
+    /*background-color: #d4e4ff;*/
+    font-weight: 900;
+}
+
+.mozita-dark-highlight {
+    background-color: #1d70ff;
+    color: #FFFFFF;
+}
+
+.div-buttons {
+    display: block;
+}
+
 .margin-top-10px {
     margin-top: 10px;
 }
 
+.margin-left-10px {
+    margin-left: 10px;
+}
+
 .margin-top-20px {
     margin-top: 20px;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-50px {
+    margin-bottom: 50px;
+}
+
+.padding-top-30px {
+    padding-top: 30px;
+}
+
+.padding-2px {
+    padding: 2px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.answer-paragraph {
+}
+
+.icon-dark-background {
+    background-color: #2a2a2e;
+}
+
+.logos > div {
+    margin-top: 20px;
+}
+
+.logos .element-title {
+    margin-top: 10px;
+}
+
+.background-000000 {
+    background-color: #000000;
+}
+
+.background-111111 {
+    background-color: #111111;
+}
+
+.background-222222 {
+    background-color: #222222;
+}
+
+.background-333333 {
+    background-color: #333333;
+}
+
+.background-444444 {
+    background-color: #444444;
+}
+
+.background-555555 {
+    background-color: #555555;
+}
+
+.background-666666 {
+    background-color: #666666;
+}
+
+.background-777777 {
+    background-color: #777777;
+}
+
+.background-888888 {
+    background-color: #888888;
+}
+
+.background-999999 {
+    background-color: #999999;
+}
+
+.background-AAAAAA {
+    background-color: #AAAAAA;
+}
+
+.background-BBBBBB {
+    background-color: #BBBBBB;
+}
+
+.background-CCCCCC {
+    background-color: #CCCCCC;
+}
+
+.background-DDDDDD {
+    background-color: #DDDDDD;
+}
+
+.background-EEEEEE {
+    background-color: #EEEEEE;
+}
+
+.background-FFFFFF {
+    background-color: #FFFFFF;
+}
+
+.zilla-slab-highlight {
+    font-family: 'Zilla Slab Highlight';
+}
+
+.color-primary {
+    color: #007CFF;
+}
+
+.main-logo {
+    height: 100px;
 }
