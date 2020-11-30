@@ -1,4 +1,10 @@
+---
+---
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Zilla+Slab+Highlight:wght@700&family=Zilla+Slab:wght@300;700&display=swap');
+
+:root {
+    --blue: #007CFF;
+}
 
 body {
     background-color: #f9f9fa;
@@ -66,14 +72,14 @@ a {
 }
 
 a:hover {
-    color: #007CFF;
-    fill: #007CFF;
+    color: var(--blue);
+    fill: var(--blue);
 }
 
 a:active,
 a:focus {
     color: #737373;
-    box-shadow: 0px 0px 0px 4px #007CFF;
+    box-shadow: 0px 0px 0px 4px var(--blue);
 }
 
 .btn {
@@ -83,7 +89,7 @@ a:focus {
 
 .btn:focus {
     color: #FFFFFF;
-    box-shadow: 0px 0px 0px 4px #007CFF;
+    box-shadow: 0px 0px 0px 4px var(--blue);
 }
 
 .element-title {
@@ -97,7 +103,7 @@ a:focus {
 }
 
 a .element-title:active, a .element-title:focus {
-    box-shadow: 0px 0px 0px 4px #007CFF;
+    box-shadow: 0px 0px 0px 4px var(--blue);
 }
 
 .fa-facebook-f {
@@ -250,7 +256,7 @@ a .element-title:active, a .element-title:focus {
 }
 
 .color-primary {
-    color: #007CFF;
+    color: var(--blue);
 }
 
 .main-logo {
