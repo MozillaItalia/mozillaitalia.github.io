@@ -63,6 +63,10 @@ section {
     transition: .1s;
 }
 
+.gallery-cell-big {
+    height: 70px;
+}
+
 a {
     color: #737373;
     font-weight: 400;
@@ -124,6 +128,14 @@ a .element-title:active, a .element-title:focus {
 
 .margin-top-10px {
     margin-top: 10px;
+}
+
+.margin-top-5px {
+    margin-top: 5px;
+}
+
+.margin-top-0px {
+    margin-top: 0px;
 }
 
 .margin-left-10px {
