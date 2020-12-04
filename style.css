@@ -42,7 +42,7 @@ section {
 }
 
 .panel {
-    background-color: #F2F2FA;
+    background-color: #f2f2fa;
     color: #737373;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -271,4 +271,31 @@ a .element-title:active, a .element-title:focus {
 
 .main-logo {
     height: 100px;
+}
+
+.image-background {
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.thunderbird-background {
+    background-image: url("/img/projects/thunderbird.svg");
+}
+
+.seamonkey-background {
+    background-image: url("/img/projects/sea-monkey.svg");
+}
+
+.firefox-background {
+    background-image: url("/img/projects/firefox-browser.svg");
+}
+
+.transparency-over-background {
+    background-color: rgba(249, 249, 250, 0.95);
+    padding: 40px;
+}
+
+.transparency-over-background-panel {
+    background-color: rgba(242, 242, 250, 0.95);
+    padding: 40px;
 }
