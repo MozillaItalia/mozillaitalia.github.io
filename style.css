@@ -70,6 +70,11 @@ section {
     height: 70px;
 }
 
+#logo-ios {
+    height: 30px;
+    margin: 15px;
+}
+
 a {
     color: var(--font-color);
     font-weight: 400;
@@ -167,6 +172,10 @@ a .element-title:active, a .element-title:focus {
 
 .big {
     font-size: 20px;
+}
+
+.normal {
+    font-size: 17px;
 }
 
 .small {
@@ -278,7 +287,8 @@ a .element-title:active, a .element-title:focus {
 
 .image-background {
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: 20px center;
+    background-size: auto 80%;
 }
 
 .thunderbird-background {
@@ -293,6 +303,10 @@ a .element-title:active, a .element-title:focus {
     background-image: url("/img/projects/firefox-browser.svg");
 }
 
+.mobile-background {
+    background-image: url("/img/download/mobile.svg");
+}
+
 .transparency-over-background {
     background-color: rgba(249, 249, 250, 0.95);
     padding: 40px;
@@ -301,4 +315,52 @@ a .element-title:active, a .element-title:focus {
 .transparency-over-background-panel {
     background-color: rgba(242, 242, 250, 0.95);
     padding: 40px;
+}
+
+.flex-div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-div > .flex-cell {
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.padding-40px {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .image-background {
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+        background-size: 40% auto;
+    }
+
+    .flex-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-div > .flex-cell {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #seamonkey {
+        background-color: rgba(242, 242, 250, 0.95);
+        padding: 40px;
+    }
+
+    #firefox-mobile {
+        background-color: rgba(249, 249, 250, 0.95);
+        padding: 40px;
+    }
 }
