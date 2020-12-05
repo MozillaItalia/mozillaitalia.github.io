@@ -2,19 +2,22 @@
 
 :root {
     --blue: #007CFF;
+    --font-color: #000000;
 }
 
 body {
     background-color: #f9f9fa;
+    color: var(--font-color);
     font-family: Inter, X-LocaleSpecific, sans-serif;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .title,
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Zilla Slab', Inter, X-LocaleSpecific, sans-serif;
+    color: inherit;
 }
 
 section {
@@ -42,8 +45,8 @@ section {
 }
 
 .panel {
-    background-color: #F2F2FA;
-    color: #737373;
+    background-color: #f2f2fa;
+    color: var(--font-color);
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -67,8 +70,13 @@ section {
     height: 70px;
 }
 
+#logo-ios {
+    height: 30px;
+    margin: 15px;
+}
+
 a {
-    color: #737373;
+    color: var(--font-color);
     font-weight: 400;
     text-decoration: underline;
 }
@@ -80,7 +88,7 @@ a:hover {
 
 a:active,
 a:focus {
-    color: #737373;
+    color: var(--font-color);
     box-shadow: 0px 0px 0px 4px var(--blue);
 }
 
@@ -164,6 +172,10 @@ a .element-title:active, a .element-title:focus {
 
 .big {
     font-size: 20px;
+}
+
+.normal {
+    font-size: 17px;
 }
 
 .small {
@@ -271,4 +283,84 @@ a .element-title:active, a .element-title:focus {
 
 .main-logo {
     height: 100px;
+}
+
+.image-background {
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: auto 80%;
+}
+
+.thunderbird-background {
+    background-image: url("/img/projects/thunderbird.svg");
+}
+
+.seamonkey-background {
+    background-image: url("/img/projects/sea-monkey.svg");
+}
+
+.firefox-background {
+    background-image: url("/img/projects/firefox-browser.svg");
+}
+
+.mobile-background {
+    background-image: url("/img/download/mobile.svg");
+}
+
+.transparency-over-background {
+    background-color: rgba(249, 249, 250, 0.95);
+    padding: 40px;
+}
+
+.transparency-over-background-panel {
+    background-color: rgba(242, 242, 250, 0.95);
+    padding: 40px;
+}
+
+.flex-div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-div > .flex-cell {
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.padding-40px {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .image-background {
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+        background-size: 40% auto;
+    }
+
+    .flex-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-div > .flex-cell {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #seamonkey {
+        background-color: rgba(242, 242, 250, 0.95);
+        padding: 40px;
+    }
+
+    #firefox-mobile {
+        background-color: rgba(249, 249, 250, 0.95);
+        padding: 40px;
+    }
 }
