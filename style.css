@@ -2,19 +2,22 @@
 
 :root {
     --blue: #007CFF;
+    --font-color: #000000;
 }
 
 body {
     background-color: #f9f9fa;
+    color: var(--font-color);
     font-family: Inter, X-LocaleSpecific, sans-serif;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .title,
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Zilla Slab', Inter, X-LocaleSpecific, sans-serif;
+    color: inherit;
 }
 
 section {
@@ -43,7 +46,7 @@ section {
 
 .panel {
     background-color: #f2f2fa;
-    color: #737373;
+    color: var(--font-color);
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -68,7 +71,7 @@ section {
 }
 
 a {
-    color: #737373;
+    color: var(--font-color);
     font-weight: 400;
     text-decoration: underline;
 }
@@ -80,7 +83,7 @@ a:hover {
 
 a:active,
 a:focus {
-    color: #737373;
+    color: var(--font-color);
     box-shadow: 0px 0px 0px 4px var(--blue);
 }
 
