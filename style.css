@@ -336,6 +336,10 @@ a .element-title:active, a .element-title:focus {
     padding: 40px;
 }
 
+.bg-panel{
+    background-color: rgba(242, 242, 250, 1);
+}
+
 @media only screen and (max-width: 700px) {
     .image-background {
         background-repeat: no-repeat;
@@ -362,5 +366,9 @@ a .element-title:active, a .element-title:focus {
     #firefox-mobile {
         background-color: rgba(249, 249, 250, 0.95);
         padding: 40px;
+    }
+
+    .mb-version-panel{
+        background-color: rgba(242, 242, 250, 1);
     }
 }
