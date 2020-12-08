@@ -109,7 +109,7 @@ a:focus {
 }
 
 .a-no-box-shadow:active, .a-no-box-shadow:focus {
-    box-shadow: 0px 0px 0px 0px transparent;;
+    box-shadow: 0px 0px 0px 0px transparent;
 }
 
 a .element-title:active, a .element-title:focus {
@@ -336,11 +336,63 @@ a .element-title:active, a .element-title:focus {
     padding: 40px;
 }
 
-.bg-panel{
+.bg-panel {
     background-color: rgba(242, 242, 250, 1);
 }
 
-@media only screen and (max-width: 700px) {
+#top-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--blue);
+    padding: 0px;
+    height: 27px;
+    font-size: 15px;
+}
+
+#top-bar a, #top-bar a:hover, #top-bar a:visited, #top-bar a:active, #top-bar a:focus {
+    color: #ffffff;
+}
+
+#top-bar a:focus, #top-bar a:active {
+    box-shadow: 0px 0px 0px 2px #ffffff;
+}
+
+#main-logo {
+    margin-top: 50px;
+}
+
+#top-bar ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#top-bar ul li {
+    display: inline-block;
+    padding: 0px;
+    padding-right: 20px;
+}
+
+#come-back-top {
+    position: relative;
+    margin: 0px;
+    background-color: rgba(242, 242, 250, 1);
+    text-align: right;
+    height: auto;
+    font-size: 15px;
+    width: auto;
+    padding: 7px;
+    display: none;
+}
+
+#come-back-top > .btn {
+    width: 100%;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 800px) {
     .image-background {
         background-repeat: no-repeat;
         background-position: 10px 10px;
@@ -368,7 +420,19 @@ a .element-title:active, a .element-title:focus {
         padding: 40px;
     }
 
-    .mb-version-panel{
+    .mb-version-panel {
         background-color: rgba(242, 242, 250, 1);
+    }
+
+    #top-bar {
+        display: none;
+    }
+
+    #main-logo {
+        margin-top: 20px;
+    }
+
+    #come-back-top {
+        display: block;
     }
 }
