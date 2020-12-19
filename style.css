@@ -51,6 +51,11 @@ section {
     padding-bottom: 40px;
 }
 
+.no-panel {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .title {
     margin-bottom: 40px;
     font-size: 28px;
@@ -198,7 +203,13 @@ a .element-title:active, a .element-title:focus {
 }
 
 .icon-dark-background {
-    background-color: #2a2a2e;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.icon-light-background {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .logos > div {
