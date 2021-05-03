@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e8c6c67-bed0-4d76-a3dc-3d90999038ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/projects/firefox-lockwise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/projects/firefox-reality.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
       <workItem from="1608334608712" duration="647000" />
       <workItem from="1608474632051" duration="74000" />
       <workItem from="1614885092226" duration="2060000" />
+      <workItem from="1620050784042" duration="171000" />
     </task>
     <servers />
   </component>
