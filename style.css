@@ -76,7 +76,7 @@ section {
     height: 70px;
 }
 
-#logo-ios {
+.logo-ios {
     height: 30px;
     margin: 15px;
 }
@@ -105,7 +105,7 @@ a:focus {
 
 .btn:focus {
     color: #FFFFFF;
-    box-shadow: 0px 0px 0px 4px var(--blue);
+    box-shadow: 0px 0px 0px 4px var(--blue-transparent);
 }
 
 .element-title {
@@ -317,6 +317,10 @@ a .element-title:active, a .element-title:focus {
 
 .mobile-background {
     background-image: url("/img/download/mobile.svg");
+}
+
+.firefox-focus-background {
+    background-image: url("/img/download/firefox-focus.svg");
 }
 
 .transparency-over-background {
