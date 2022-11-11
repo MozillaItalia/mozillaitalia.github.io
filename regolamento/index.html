@@ -20,14 +20,29 @@
     <meta name="twitter:image" content="https://www.mozillaitalia.org/img/opengraph/logo-opengraph.png"/>
     <meta name="twitter:creator" content="@MozillaItalia"/>
 
-    <title>Errore 404 - Mozilla Italia</title>
+    <title>Regolamento - Mozilla Italia</title>
     <link rel="stylesheet" href="https://mozilla.github.io/mofo-bootstrap/dest/css/mofo-bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css"/>
     <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
-
-    <meta http-equiv="Refresh" content="5; url='/'" />
+    
+    <!-- This is to convert markdown into html -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var tg = document.querySelectorAll('.tg-link');
+            for (var i = 0; i < tg.length; i++) {
+                var urlpartsplit = 'hat';
+                var urlpart = 'joinc' + urlpartsplit;
+                var urlpartagain = 't.';
+                var urlpartanother = 'me/';
+                var id = tg[i].getAttribute('data-id');
+                tg[i].setAttribute('href', 'https://' + urlpartagain + urlpartanother + urlpart + '/' + id);
+            }
+        });
+    </script>
 </head>
 <body>
 <div id="top-bar">
@@ -57,21 +72,52 @@
 <section>
     <div class="container">
         <div class="row">
-            <h1 class="title">Errore 404 - Pagina non trovata</h1>
-        </div>
-        <div class="row">
-            <h1 class="title">Ti stiamo reindirizzando alla pagina principale...</h1>
-            <p>Se il reindirizzamento automatico non dovesse funzionare, fai clic sul seguente pulsante.</p>
-        </div>
-        <div class="row">
-            <div class="div-buttons">
-                <a class="btn" href="/">Torna alla pagina principale</a>
-            </div>
+            <h1 class="title">Regolamento dei gruppi Mozilla Italia</h1>
+            <div id="content"></div>
+
+
+            <script>
+                (function() {
+                    var httpRequest;
+                    makeRequest();
+                
+                    function makeRequest() {
+                        httpRequest = new XMLHttpRequest();
+                
+                        if (!httpRequest) {
+                            alert('Non riesco a creare una XMLHttpRequest');
+                            return false;
+                        }
+                
+                        httpRequest.onreadystatechange = setContents;
+
+                        // qui ci va il link al regolamento
+                        // TODO: in caso questo non venga aggiornato, mettere un link aggiornato
+                        httpRequest.open('GET', 'https://raw.githubusercontent.com/wiki/MozillaItalia/assets/Regolamento.md');
+                        httpRequest.send();
+                    }
+                
+                    function setContents() {
+                        if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                            if (httpRequest.status === 200) {
+                                var converter = new showdown.Converter(),
+                                text = converter.makeHtml(httpRequest.responseText);
+
+                                // inserisce il contenuto nella pagina
+                                document.getElementById("content").innerHTML = text;
+                            } else {
+                                alert('Errore: riprova più tardi o aggiorna la pagina.');
+                            }
+                        }
+                    }
+                })();    
+            </script>   
         </div>
     </div>
 </section>
 
-<section class="panel">
+
+<section class="bg-panel">
     <div class="text-center">
         <div class="container">
             <div class="d-flex justify-content-center">
