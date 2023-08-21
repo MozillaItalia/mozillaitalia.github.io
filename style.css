@@ -45,11 +45,15 @@ section {
     color: #FFFFFF;
 }
 
-.panel {
+.panel, .panel-message {
     background-color: #f2f2fa;
     color: var(--font-color);
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.panel-message {
+    background: #b6dcff;
 }
 
 .no-panel {
@@ -424,6 +428,14 @@ a .element-title:active, a .element-title:focus {
     top: 0px;
     margin-left: 2px;
     position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 @media only screen and (max-width: 800px) {

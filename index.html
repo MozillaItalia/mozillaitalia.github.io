@@ -90,6 +90,33 @@
     </div>
 </section>
 
+<section class="panel-message hidden" id="cv-project-android">
+    <div class="container">
+        <div class="row">
+            <h1 class="title">Common Voice come app!</h1>
+            <p>
+                Scopri <b>CV Project</b>, l'app che ti permette di contribuire al progetto Common Voice di Mozilla <b>direttamente dal tuo smartphone Android</b> in maniera semplice e veloce.
+                <br>
+                Un'app <b>non ufficiale</b> open source <b>realizzata in Italia</b> da un nostro volontario.
+            </p>
+            <div class="div-buttons">
+                <a href="https://www.saveriomorelli.com/commonvoice/" class="btn">Scopri di pi&ugrave; sull'app</a>
+                <a href="" class="btn">Scarica l'app da Google Play</a>
+                <a href="https://foundation.mozilla.org/en/blog/common-voice-for-everyone-mozilla-advances-projects-with-nvidia-enabling-voice-data-donation-in-low-internet-contexts/"
+                   class="btn">Scopri come Mozilla ha supportato l'app</a>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    const android = /Android/.test(navigator.userAgent) && !window.MSStream;
+    if (android) {
+        if (document.getElementById("cv-project-android").classList.contains("hidden")) document.getElementById("cv-project-android").classList.remove("hidden");
+    } else {
+        if (!document.getElementById("cv-project-android").classList.contains("hidden")) document.getElementById("cv-project-android").classList.add("hidden");
+    }
+</script>
+
 <div class="text-center panel">
     <div class="container">
         <div class="d-flex justify-content-center">
@@ -122,7 +149,7 @@
             </div>
             <div class="col-md-3 col-6 mb-2">
                 <a href="https://developer.mozilla.org/it/" target="_blank" class="a-no-box-shadow">
-                    <img class="gallery-cell" src="/img/projects/mdn.png" alt="Logo di MDN Web Docs">
+                    <img class="gallery-cell" src="/img/projects/mdn.svg" alt="Logo di MDN Web Docs">
                     <p class="element-title">MDN</p>
                 </a>
             </div>
@@ -164,14 +191,22 @@
                 </a>
             </div>
             <div class="col-md-3 col-6 mb-2">
+                <a href="https://www.mozilla.org/it/products/vpn/" target="_blank" class="a-no-box-shadow">
+                    <img class="gallery-cell" src="/img/projects/mozilla-vpn.svg" alt="Logo di Mozilla VPN">
+                    <p class="element-title">Mozilla VPN</p>
+                </a>
+            </div>
+            <!--
+            <div class="col-md-3 col-6 mb-2">
                 <a href="https://github.com/mozilla/DeepSpeech" target="_blank" class="a-no-box-shadow">
                     <img class="gallery-cell" src="/img/projects/deepspeech.svg" alt="Logo di DeepSpeech">
                     <p class="element-title">DeepSpeech</p>
                 </a>
             </div>
+            -->
         </div>
         <div class="d-flex justify-content-center">
-            <a href="https://labs.mozilla.org/projects/" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.mozilla.org/it/firefox/products/" target="_blank" rel="noopener noreferrer"
                class="margin-top-10px big">Altri progetti di Mozilla</a>
         </div>
     </div>
@@ -262,7 +297,8 @@
             <div class="col-md-3 col-6 mb-2">
                 <!-- TODO: aggiungere un logo a marketing & design -->
                 <a class="tg-link a-no-box-shadow" data-id="2fJyoMoOKa1kNjM0" target="_blank">
-                    <img class="gallery-cell" src="/img/groups/marketing.png" alt="Logo di Mozilla Italia Marketing &amp; Design">
+                    <img class="gallery-cell" src="/img/groups/marketing.png"
+                         alt="Logo di Mozilla Italia Marketing &amp; Design">
                     <p class="element-title external-telegram">Marketing &amp; Design</p>
                 </a>
             </div>
