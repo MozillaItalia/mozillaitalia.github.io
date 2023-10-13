@@ -30,12 +30,10 @@
         document.addEventListener('DOMContentLoaded', (event) => {
             var tg = document.querySelectorAll('.tg-link');
             for (var i = 0; i < tg.length; i++) {
-                var urlpartsplit = 'hat';
-                var urlpart = 'joinc' + urlpartsplit;
                 var urlpartagain = 't.';
                 var urlpartanother = 'me/';
                 var id = tg[i].getAttribute('data-id');
-                tg[i].setAttribute('href', 'https://' + urlpartagain + urlpartanother + urlpart + '/' + id);
+                tg[i].setAttribute('href', 'https://' + urlpartagain + urlpartanother + '/' + id);
             }
         });
     </script>
